@@ -21,7 +21,7 @@ apt-get install -y sslsplit
 apt-get install -y python-scapy 
 #apt-get install -y metasploit-framework
 
-cp /etc/apparmor.d/usr.sbin.dhcpd /etc/apparmor.d/disable/
+# cp /etc/apparmor.d/usr.sbin.dhcpd /etc/apparmor.d/disable/
 
 make
 make install
