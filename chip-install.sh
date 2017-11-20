@@ -19,7 +19,7 @@ gpg --armor --export ED444FF07D8D0BF6 | apt-key add -
 apt-get update
 apt-get install -y sslsplit 
 apt-get install -y python-scapy 
-apt-get install -y metasploit-framework
+#apt-get install -y metasploit-framework
 
 cp /etc/apparmor.d/usr.sbin.dhcpd /etc/apparmor.d/disable/
 
