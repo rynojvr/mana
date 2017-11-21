@@ -7,7 +7,7 @@ echo [+] It assumes you are running Ubuntu 14.04
 echo [+] If you are worried about that, hit Ctl-C now, or hit Enter to continue
 read
 
-apt-get install libnl-utils dnsmasq tinyproxy libssl-dev apache2 macchanger python-dnspython python-pcapy dsniff stunnel4
+apt-get install -y libnl-utils dnsmasq tinyproxy libssl-dev apache2 macchanger python-dnspython python-pcapy dsniff stunnel4
 
 echo "deb http://http.kali.org/kali kali-rolling main non-free contrib" > /etc/apt/sources.list.d/mana-kali.list
 #echo """Package: sslsplit, python-scapy, metasploit-framework
